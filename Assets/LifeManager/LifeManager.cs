@@ -36,7 +36,7 @@ namespace Rito
     public class LifeManager : RitoSingleton<LifeManager>
     {
         /// <summary> 오브젝트 풀 크기(각 오브젝트마다 n개) </summary>
-        public const int _PoolMaxSize = 20;
+        public const int _PoolMaxSize = 50;
 
 
         #region Unity Events
